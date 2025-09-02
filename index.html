@@ -107,9 +107,11 @@
           </div>
           <div class="about-wrapper__info">
             <p>
-              I am a passionate software developer currently pursuing my Bachelors degree at <b>IIITDM Jabalpur, India.</b> </p>
+              <p>
+                I am a passionate software developer and recent B.Tech. graduate from <b>IIITDM Jabalpur, India</b>, focused on full‑stack development and applied AI.
+              </p>
 
-              <p> I am currently working on developing a website and an AI chatbot as part of my internship.</p>
+              <p> I recently worked on a AI job platform for German job market as part of my internship.</p>
               <p class="about-wrapper__info-text"> I am expanding my knowledge in <b>Gen-AI and Agents.</b> </p>
               <p> Feel free to ask me about Next.js, Large Language Models (LLMs), and modern web development practices.
             </p>
@@ -466,4 +468,27 @@
       });
     </script>
   </body>
+  <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.2.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.2.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyBhLlEtO6BVa2A3_htM5KLUpXdaDxXyXkI",
+    authDomain: "singh-abhay.firebaseapp.com",
+    projectId: "singh-abhay",
+    storageBucket: "singh-abhay.firebasestorage.app",
+    messagingSenderId: "617264891128",
+    appId: "1:617264891128:web:402b8bc05c650696d3e70d",
+    measurementId: "G-NR3YTCVR2X"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
 </html>
