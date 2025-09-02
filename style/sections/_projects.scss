@@ -1,19 +1,20 @@
 #projects {
-  background-color: #1F2232;
+  background-color: #1f2232;
   color: #fff;
-  margin-top: -15rem;
-  padding-top: 15rem;
+  // Remove overlap from previous section and use regular spacing
+  margin-top: 0;
+  padding: 6rem 0;
   @include respond(tab-land) {
     margin-top: 0;
-    padding-top: 5rem;
+    padding: 5rem 0;
   }
   @include respond(phone) {
-    padding-bottom: 1px;
+    padding: 4rem 0 1rem 0;
   }
   .project-wrapper {
-    margin-bottom: 15rem;
+    margin-bottom: 8rem;
     @include respond(phone) {
-      margin-bottom: 0rem;
+      margin-bottom: 3rem;
     }
     .row {
       margin: 0;
