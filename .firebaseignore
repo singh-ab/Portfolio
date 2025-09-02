@@ -1,0 +1,31 @@
+# Ignore node modules and git
+
+node_modules/
+.git
+
+# Ignore build and local editor files
+
+.vscode/
+.DS_Store
+
+# Ignore firebase config and credentials
+
+firebase-debug.log
+
+# Ignore local environment files
+
+.env
+
+# Ignore any other large or unnecessary folders
+
+dist/
+build/
+public/
+
+# Keep your source style folder because it contains compiled CSS in style/main.css
+
+!style/main.css
+!index.html
+!assets/
+!javascript/
+!css/
