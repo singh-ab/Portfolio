@@ -137,6 +137,32 @@
       <div class="container">
         <h2 class="section-title">Experience</h2>
 
+                <!-- Entry: 8ksec.io -->
+        <div class="row experience-wrapper">
+          <div class="experience-wrapper__image">
+            <img
+              class="img-fluid"
+              src="/assets/8ksec.jpg"
+              alt="8ksec.io Internship Image"
+              width="1366"
+              height="767"
+            />
+            <!--Pic Designed by pikisuperstar from Freepik -->
+          </div>
+          <div class="experience-wrapper__info">
+            <h3 class="experience-wrapper__text-title">
+              Software Engineering Intern at 8ksec.io
+              <br /><small>Aug 2025 - Oct 2025</small>
+            </h3>
+
+            <ul class="experience-wrapper__info-text">
+              <li>Implemented a secure user management system using featuring an invitation-only workflow and a 3-level RBAC model to eliminate unauthorized access and streamline admin operations.</li>
+              <li>Devised a resilient auth layer with NextAuth.js and CASL to protect 15+ features, fixing critical security vulnerabilities and improving UX with a dedicated page for expired tokens.</li>
+              <li>Created a full-stack admin dashboard implementing real-time controls and security-first UI patterns like preventing self-deletion to enhance operational efficiency.</li>
+            </ul>
+          </div>
+        </div>
+
         <!-- New Entry: HW Saver LLP -->
         <div class="row experience-wrapper">
           <div class="experience-wrapper__image">
@@ -203,25 +229,64 @@
           <h2 class="section-title dark-blue-text">Projects</h2>
 
           <!-- Each .row is a project -->
+           <!-- Each .row is a project -->
+<article class="row">
+  <div class="project-wrapper__text">
+    <h3 class="project-wrapper__text-title">Support Arbiter</h3>
+    <p class="project-wrapper__text-info">
+      <b>Tech Stack: TypeScript, JavaScript, CSS, Multi-Agent AI Systems</b><br>
+      Engineered an AI-powered customer support platform using a multi-agent architecture to automate triage, response generation, and resolution workflows at scale.<br>
+      <b>Features:</b><br>
+      • Architected coordinated AI agents for intent classification, ticket routing, and context-aware response drafting<br>
+      • Built scalable backend logic in TypeScript with modular, maintainable components aligned with SDE best practices<br>
+      • Improved support throughput by reducing manual handling through automated orchestration and workflow standardization<br>
+    </p>
+    <div class="project-wrapper__text-btns">
+      <a
+        href="https://support-arbiter.vercel.app"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="cta-btn cta-btn--hero cta-btn--projects"
+        >See Live</a
+      >
+      <a href="https://github.com/singh-ab/support-arbiter" target="_blank" class="cta-btn text-color-main"
+        >Source Code</a
+      >
+    </div>
+  </div>
+
+  <div class="project-wrapper__image">
+    <a href="#" target="_blank" rel="noopener noreferrer">
+      <div class="thumbnail rounded">
+        <img
+          src="./assets/arbiter.png"
+          class="img-fluid"
+          alt="Support Arbiter Image"
+          width="1366"
+          height="767"
+        />
+      </div>
+    </a>
+  </div>
+</article>
+<!-- /END Project -->
+          
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
           <article class="row">
             <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">AI Voice Assistant</h3>
+              <h3 class="project-wrapper__text-title">FilmRatio for Letterboxd</h3>
               <p class="project-wrapper__text-info">
-                <b>Tech Stack: Git, AWS S3, Next.js, Pinecone, LLM<br></b>
-                 Engineered an AI voice assistant for the institute utilizing RAG & NLP capable of retrieving and displaying real-time information.<br>
+                <b>Tech Stack: JavaScript, Chrome Extension API, IMDb Integration</b><br>
+                A browser extension that displays film aspect ratios on Letterboxd by fetching technical specifications from IMDb.<br>
                 <b>Features:</b><br>
-                • Voice-based TTS answering various queries in a human-like manner<br>
-                • Provides location-specific details for effective navigation across the 300-acre campus.<br>
-                • RFID attendance system for 2500+ people, streamlining the process and reducing errors.<br>
-              </p> <div class="project-wrapper__text-btns">
-                <a
-                  href="https://edp-iiitdmj-bot.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="cta-btn cta-btn--hero cta-btn--projects"
-                  >See Live</a
-                >
-                <a href="https://github.com/singh-ab/IIITDMJ_Doctalk" target="_blank" class="cta-btn text-color-main"
+                • On-page badge displaying aspect ratio next to runtime<br>
+                • Smart caching for 30 days to minimize IMDb requests<br>
+                • Multiple ratio support with type names (e.g., "2.39:1 (Scope)")<br>
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a href="https://addons.mozilla.org/en-US/firefox/addon/filmratio-for-letterboxd/" target="_blank" class="cta-btn text-color-main"
                   >Source Code</a
                 >
               </div>
@@ -231,9 +296,9 @@
               <a href="#" target="_blank" rel="noopener noreferrer">
                 <div class="thumbnail rounded">
                   <img
-                    src="/assets/voiceassis_model.jpeg"
+                    src="/assets/filmratio.png"
                     class="img-fluid"
-                    alt="voice assistant image"
+                    alt="FilmRatio Image"
                     width="1366"
                     height="767"
                   />
